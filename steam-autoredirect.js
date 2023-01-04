@@ -4,6 +4,8 @@
 // @namespace   https://github.com/h-exx/user-scripts
 // @match       http*://steamcommunity.com/*
 // @match       http*://*steampowered.com/*
+// @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.js
+// @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.js
 // @grant       none
 // @version     1.0
 // @run-at      document-idle
