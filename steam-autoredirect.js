@@ -7,7 +7,7 @@
 // @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.js
 // @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.js
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @run-at      document-idle
 // @author      h-exx
 // @description 1/4/2023, 6:22:10 PM
@@ -32,6 +32,11 @@ let params = new URLSearchParams(window.location.search);
 if (url[0].includes('steamcommunity')) {
   switch(url[1]) {
     case 'sharedfiles':
+      if (params.has('id')) {
+        redir(`steam://url/CommunityFilePage/` + params.get('id'));
+        break;
+      }
+    case 'workshop':
       if (params.has('id')) {
         redir(`steam://url/CommunityFilePage/` + params.get('id'));
         break;
