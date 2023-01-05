@@ -3,11 +3,12 @@
 // @description Auto Redirects Steam pages to the Steam official launcher
 // @namespace   https://github.com/h-exx/user-scripts
 // @match       http*://steamcommunity.com/*
-// @match       http*://*steampowered.com/*
+// @match       http*://store.steampowered.com/*
+// @match       http*://steampowered.com/*
 // @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.user.js
 // @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.user.js
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @run-at      document-idle
 // @author      h-exx
 // @description 1/4/2023, 6:22:10 PM
