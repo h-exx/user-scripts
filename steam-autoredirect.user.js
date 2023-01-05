@@ -11,7 +11,6 @@
 // @version     1.2
 // @run-at      document-idle
 // @author      h-exx
-// @description 1/4/2023, 6:22:10 PM
 // ==/UserScript==
 
 const settings = {
