@@ -9,7 +9,7 @@
 // @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.user.js
 // @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.user.js
 // @grant       none
-// @version     1.2
+// @version     1.3
 // @run-at      document-idle
 // @author      h-exx
 // ==/UserScript==
