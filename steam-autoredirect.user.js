@@ -5,6 +5,7 @@
 // @match       http*://steamcommunity.com/*
 // @match       http*://store.steampowered.com/*
 // @match       http*://steampowered.com/*
+// @icon         https://store.steampowered.com/favicon.ico
 // @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.user.js
 // @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoredirect.user.js
 // @grant       none
