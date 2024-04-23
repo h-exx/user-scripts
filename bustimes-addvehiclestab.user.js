@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bustimes Show Vehicles in Timetables
 // @namespace    https://github.com/h-exx/user-scripts
-// @version      1.0
+// @version      1.1
 // @description  Adds the Vehicle tab to Timetables
 // @author       h-exx
 // @match        http*://bustimes.org/services/*
