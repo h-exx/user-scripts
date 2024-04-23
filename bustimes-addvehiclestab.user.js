@@ -16,7 +16,7 @@
 let url = window.location.href;
 
 if (url.endsWith('/vehicles')) {
-    console.log("nah");
+    document.getElementsByClassName('tabs')[0].innerHTML += `<li id="map-link"><a href="${url.split('/vehicles')[0]}#map">Map</a></li>`
 } else {
     document.getElementsByClassName('tabs')[0].innerHTML += `<li id="map-link"><a href="${url + '/vehicles'}">Vehicles</a></li>`
 }
