@@ -6,8 +6,8 @@
 // @author       h-exx
 // @match        http*://bustimes.org/services/*
 // @icon         https://bustimes.org/favicon.ico
-// @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoageverifier.user.js
-// @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/steam-autoageverifier.user.js
+// @updateURL   https://raw.githubusercontent.com/h-exx/user-scripts/main/bustimes-addvehiclestab.user.js
+// @downloadURL https://raw.githubusercontent.com/h-exx/user-scripts/main/bustimes-addvehiclestab.user.js
 // @grant        none
 // @run-at      document-idle
 // ==/UserScript==
@@ -18,5 +18,5 @@ let url = window.location.href;
 if (url.endsWith('/vehicles')) {
     console.log("nah");
 } else {
-    document.getElementsByClassName('tabs')[0].append(`<li id="map-link"><a href="${url + '/vehicles'}">Vehicles</a></li>`);
+    document.getElementsByClassName('tabs')[0].innerHTML += `<li id="map-link"><a href="${url + '/vehicles'}">Vehicles</a></li>`
 }
